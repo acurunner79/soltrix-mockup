@@ -1,5 +1,6 @@
 import Hamburger from './nav/Hamburger';
 import TopNav from './nav/TopNav';
+import Footer from './footer/index'
 import Bio from './components/Bio';
 import Contact from './components/Contact';
 import Events from './components/Events';
@@ -32,6 +33,7 @@ function App() {
       <Route exact path="/news">
         <News />
       </Route>
+      <Footer />
     </div>
   );
 }

@@ -8,17 +8,17 @@ const TopNav = () => {
         <div id="nav-container">
             <nav id="navbar">
                 <ul id="nav-links">
-                <Link to="/" className="topnav-link" activeClassName="active" isCurrent="true">
+                <Link to="/" className="topnav-link" activeClassName="active" iscurrent="true">
                     <li>
                     Home
                     </li>
                 </Link>
-                <Link to="/events" className="topnav-link" activeClassName="active" isCurrent="true">
+                <Link to="/events" className="topnav-link" activeClassName="active" iscurrent="true">
                     <li>
                     Events
                     </li>
                 </Link>
-                <Link to="/music" className="topnav-link" activeClassName="active" isCurrent="true">
+                <Link to="/music" className="topnav-link" activeClassName="active" iscurrent="true">
                     <li>
                     Music
                     </li>
@@ -26,17 +26,17 @@ const TopNav = () => {
                 <Link>
                 <img id="main-logo" src="https://res.cloudinary.com/acurunner79/image/upload/v1631938925/xuTv__lU_400x400_aubaaf.jpg" alt="soltrix-logo"/>
                 </Link>
-                <Link to="/news" className="topnav-link" activeClassName="active" isCurrent="true">
+                <Link to="/news" className="topnav-link" activeClassName="active" iscurrent="true">
                     <li>
                     News
                     </li>
                 </Link>
-                <Link to="/bio" className="topnav-link" activeClassName="active" isCurrent="true">
+                <Link to="/bio" className="topnav-link" activeClassName="active" iscurrent="true">
                     <li>
                     Bio
                     </li>
                 </Link>
-                <Link to="/contact" className="topnav-link" activeClassName="active" isCurrent="true">
+                <Link to="/contact" className="topnav-link" activeClassName="active" iscurrent="true">
                     <li>
                     Contact
                     </li>
