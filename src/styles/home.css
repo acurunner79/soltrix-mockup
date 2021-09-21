@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* margin-top: -100px; */
+    margin-top: 400px;
 }
 
 #main-logo{
@@ -38,7 +38,7 @@
     background-color: rgba(255, 255, 255, 0.561);
     width: 50vw;
     height: 320px;
-    margin: 700px 0 0 0;
+    /* margin: 700px 0 0 0; */
 }
 
 .gig-content{

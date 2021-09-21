@@ -1,3 +1,14 @@
 #bio-main-container{
-    margin-top: 190px;
+    margin-top: 610px;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+#bio-headshot{
+    width: 500px;
+    height: 750px;
+}
+
+.bio-text{
+    width: 50vw;
+    margin: 0 auto;
 }

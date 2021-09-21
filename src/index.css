@@ -1,9 +1,10 @@
 body {
-  margin: 0 auto;
+  margin: 0 auto !important;
   text-align: center;
+
   background-image: url("https://res.cloudinary.com/acurunner79/image/upload/v1631939180/soltrix-02_opu5k4.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-color: black;
   font-family: -apple-system, BlinkMacSystemFont, 'Orbitron','Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
