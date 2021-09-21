@@ -34,7 +34,7 @@ const Contact = () => {
                     <textarea
                         id="message"
                         name="message"
-                        placeholder=" How can we help you?">
+                        placeholder=" Required">
                     </textarea>
                 </label>
                     <br/>

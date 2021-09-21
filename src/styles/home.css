@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 400px;
+    margin: 400px auto;
 }
 
 #main-logo{
@@ -77,11 +77,13 @@
 }
 
 .button{
+    width: 250px;
+    height: 35px;
     border: transparent;
     border-radius: 8px;
     background-color: rgb(29, 29, 29);
     font-size: 20px;
-    padding: 5px;
+    /* padding: 5px; */
     color: red;
     font-family: 'Orbitron';
     margin-bottom: 10px;

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/home.css'
+import {IoIosArrowForward} from 'react-icons/io'
 
 const Home = () => {
     return (
@@ -13,25 +14,25 @@ const Home = () => {
                 </div>
                 <div className="gig-content">
                     <p className="gig-date">SEP 24th</p>
-                    <p className="gig-details"> DC Bachata Festival</p>
-                    <p className="gig-details">Washington D.C.</p>
+                    <p className="gig-details">Some Bachata Festival</p>
+                    <p className="gig-details">Washington</p>
                 </div>
                 <div className="gig-content">
-                    <p className="gig-date">SEP 24th</p>
-                    <p className="gig-details"> DC Bachata Festival</p>
-                    <p className="gig-details">Washington D.C.</p>
+                    <p className="gig-date">OCT 24th</p>
+                    <p className="gig-details">Some Bachata Festival</p>
+                    <p className="gig-details">Chicago, IL</p>
                 </div>
                 <div className="gig-content">
-                    <p className="gig-date">SEP 24th</p>
-                    <p className="gig-details"> DC Bachata Festival</p>
-                    <p className="gig-details">Washington D.C.</p>
+                    <p className="gig-date">NOV 24th</p>
+                    <p className="gig-details">Some Bachata Festival</p>
+                    <p className="gig-details">Tampa, FL</p>
                 </div>
                 <div className="gig-content">
-                    <p className="gig-date">SEP 24th</p>
-                    <p className="gig-details"> DC Bachata Festival</p>
-                    <p className="gig-details">Washington D.C.</p>
+                    <p className="gig-date">DEC 24th</p>
+                    <p className="gig-details">Some Bachata Festival</p>
+                    <p className="gig-details">New York, NY</p>
                 </div><br/>
-                <button className="button">More Events</button>
+                <button className="button">More Events <IoIosArrowForward size="15"/></button>
             </div><br/>
             <h2>Latest Music</h2>
             <div id="latest-music-container">
@@ -52,7 +53,11 @@ const Home = () => {
                     <h5>Farruko - Pepas (DJ Soltrix Bachata Remix)</h5>
                 </div>
             </div><br/>
-            <button className="button">More music</button>
+            <button className="button">More music <IoIosArrowForward size="15"/></button>
+            <div id="gig-chart">
+                <h4 id="gig-header">Soltrix News</h4>
+            </div>
+            <button className="button">More News <IoIosArrowForward size="15"/></button>
         </div>
     )
 }

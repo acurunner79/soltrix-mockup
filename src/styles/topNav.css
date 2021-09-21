@@ -58,8 +58,8 @@ a{
         transition: transform .4s;
     }
 
-    Link.active{
-        color: rgba(255, 0, 0, 0.808) !important;
+    .active{
+        color: red !important;
     }
 
     .topnav-link li:hover{
